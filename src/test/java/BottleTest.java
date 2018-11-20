@@ -35,4 +35,11 @@ public class BottleTest {
         bottle.drink();
         assertEquals(0, bottle.getVolume());
     }
+
+    @Test
+    public void canRefill() {
+        bottle.empty();
+        bottle.refill();
+        assertEquals(100, bottle.getVolume());
+    }
 }

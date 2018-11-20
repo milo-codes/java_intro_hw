@@ -21,4 +21,8 @@ public class Bottle {
     public void empty() {
         volume = 0;
     }
+
+    public void refill() {
+        volume = 100;
+    }
 }

@@ -9,6 +9,7 @@ public class CalculatorTest {
 
     @Before
     public void before() {
+
         calc = new Calculator();
     }
 
